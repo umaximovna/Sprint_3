@@ -28,4 +28,3 @@ class TestRegistrationPage:
         message = driver.find_elements(*TestLocators.REGISTER_PAGE_PASSWORD_ERROR_MESSAGE)
         assert len(message) > 0
         driver.quit()
-

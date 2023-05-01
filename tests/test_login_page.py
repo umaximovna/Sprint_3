@@ -84,7 +84,3 @@ class TestLoginPage:
             expected_conditions.visibility_of_element_located((By.XPATH, TestLocators.DESIGN_ORDER_BUTTON)))
         assert driver.current_url == 'https://stellarburgers.nomoreparties.site/'
         driver.quit()
-
-
-
-

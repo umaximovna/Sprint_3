@@ -44,11 +44,3 @@ class TestLocators:
     # локаторы в личном кабинете /account/profile
     MESSAGE_IN_PROFILE_PAGE = ".//p[text()='В этом разделе вы можете изменить свои персональные данные']"
     EXIT_FROM_PERSONAL_CABINET_BUTTON = By.XPATH, "//button[text()='Выход']"
-
-
-
-
-
-
-
-
